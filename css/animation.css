@@ -1,0 +1,42 @@
+#header header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#top #search input:focus {
+    border: 2px solid #505050;
+    border-radius: 25px;
+    transition: all 0.5s;
+}
+
+#top #interface ul #white:hover {
+    background-color: rgba(255,255,255, 0.8);
+    transition: all 0.3s;
+}
+
+#top #interface ul #black:hover {
+    background-color: #404040;
+    transition: all 0.3s;
+}
+
+#top #interface ul #aqua:hover {
+    background-color: #22DCD7;
+    transition: all 0.3s;
+}
+
+#top-films .tops-slider ul li a:hover span {
+    background: rgba(0,0,0, 0.7);
+    height: 100%;
+    transition: all 1s;
+}
+
+#top-films .tops-slider #previous:hover {
+    color: white;
+    background: rgba(0,0,0, 0.3);
+    transition: all 0.3s;
+}
+
+#top-films .tops-slider #next:hover {
+    color: white;
+    background: rgba(0,0,0, 0.3);
+    transition: all 0.3s;
+}

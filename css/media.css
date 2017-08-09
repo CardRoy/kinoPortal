@@ -1,0 +1,65 @@
+@media screen and (max-width: 1115px) {
+    #top #interface {
+        width: 15%; /* Ширина панели выбора цветовой схемы */
+        transition: all 0.4s;
+
+    }
+
+    #top #interface ul {
+        width: 60%;
+        transition: all 0.4s;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    #top #search {
+        width: 22%;
+        transition: all 1s;
+    }
+
+    #top-films {
+        height: 180px;
+        font-size: 14px;
+        transition: all 1.2s;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    #header header {
+        padding: 0 5%;
+        transition: all 1s;
+    }
+
+    #top #interface {
+        width: 20%; /* Ширина панели выбора цветовой схемы */
+        transition: all 0.4s;
+    }
+
+    #top #interface ul {
+        width: 50%;
+        transition: all 0.4s;
+    }
+
+    #top-films {
+        height: 150px;
+        font-size: 12px;
+        transition: all 1.2s;
+    }
+
+    #footer {
+        padding: 0 5%;
+        transition: all 1s;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    #top #search {
+        width: 25%;
+        transition: all 1s;
+    }
+
+    #top #interface {
+        width: 25%; /* Ширина панели выбора цветовой схемы */
+        transition: all 0.4s;
+    }
+}

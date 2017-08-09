@@ -1,0 +1,239 @@
+html, body {
+    background-color: #171717;
+    height: 100%;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    background: #232323;
+    height: 75px;
+}
+
+#header header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+    transition: all 0.5s;
+}
+
+#header header #logo a {
+    text-decoration: none;
+    color: white;
+    font-family: "DejaVu Sans", sans-serif;
+}
+
+#header header #primary-text {
+    font-size: 32px;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#header header nav ul {
+    display: flex;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#header header nav ul li {
+    margin: 0 2%;
+}
+
+#header header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#content {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+}
+
+#top {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    min-height: 50px;
+}
+
+#top #search, #interface {
+    margin: 0 2.5%;
+}
+
+#top #search {
+    height: 70%;
+    width: 18%;
+    transition: all 1s;
+}
+
+#top #search input {
+    width: 88%;
+    height: 85%;
+    background-color: rgba(0,0,0, 0.3);
+    border: 2px solid #232323;
+    padding: 0 5%;
+    color: #616161; /* or #4A4A4A */
+    transition: all 0.3s;
+}
+
+::-webkit-input-placeholder {color:#545454; opacity:1;} /* webkit */
+::-moz-placeholder          {color:#545454; opacity:1;} /* Firefox 19+ */
+:-moz-placeholder           {color:#545454; opacity:1;} /* Firefox 18- */
+:-ms-input-placeholder      {color:#545454; opacity:1;} /* IE */
+
+#top #interface {
+    width: 10%; /* Ширина панели выбора цветовой схемы */
+    height: 95%; /* Высота панели выбора цветовой схемы */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid red;
+    transition: all 0.3s;
+}
+
+#top #interface ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    outline: 1px solid green;
+    transition: all 0.3s;
+}
+
+#top #interface ul li {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+#top #interface ul #white {
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#top #interface ul #black {
+    background-color: #232323;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#top #interface ul #aqua {
+    background-color: #3ABEB9;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#top-films {
+    padding: 0 2.5%;
+    margin: 1.5% 0;
+    height: 225px;
+    transition: all 1s;
+}
+
+#top-films .tops-slider {
+    background-color: #232323;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Оформление кнопок слайдера */
+
+#top-films .tops-slider #previous,#next {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #101010;
+    background: rgba(0,0,0, 0.1);
+    border-radius: 15px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D6D6D6;
+    padding-top: 0.1%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#top-films .tops-slider #previous {
+    margin-left: 0.5%;
+    padding-right: 0.1%;
+}
+
+#top-films .tops-slider #next {
+    margin-right: 0.5%;
+    padding-left: 0.1%;
+}
+
+/* Конец оформления кнопок слайдера */
+
+#top-films .tops-slider ul {
+    display: flex;
+    height: 90%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#top-films .tops-slider ul li {
+    margin: 0 0.5%;
+    width: 14.285714286%;
+    border: 4px solid #171717;
+}
+
+#top-films .tops-slider ul li a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+
+#top-films .tops-slider ul li a span {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 0;
+    color: white;
+    display: flex;
+    transition: all 1s;
+}
+
+#top-films .tops-slider ul li a span p {
+    padding: 5% 2%;
+    background: rgba(0,0,0, 0.7);
+    width: 100%;
+}
+
+#top-films .tops-slider ul li a img {
+    height: 100%;
+    width: 100%;
+}
+
+#footer {
+    background: #232323;
+    min-height: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0 2.5%;
+    margin: auto 0 0 0;
+    transition: all 0.5s;
+}
