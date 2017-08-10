@@ -51,12 +51,6 @@ html, body {
     color: white;
 }
 
-#content {
-    width: 90%;
-    margin: 0 auto;
-    color: white;
-}
-
 #top {
     margin-top: 10px;
     color: white;
@@ -135,7 +129,7 @@ html, body {
 
 #top-films {
     padding: 0 2.5%;
-    margin: 1.5% 0;
+    margin-top: 15px;
     height: 225px;
     transition: all 1s;
 }
@@ -221,6 +215,75 @@ html, body {
 #top-films .tops-slider ul li a img {
     height: 100%;
     width: 100%;
+}
+
+#content {
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+}
+
+#content #categories {
+    margin-top: 7px; /* or 10 */
+    padding: 0.5% 0.5%;
+    background: #232323;
+}
+
+#content #categories nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#content #categories nav ul li {
+    width: 19.6%;
+    height: 30px;
+    background: #181818;
+    margin: 2px 0.2%;
+    transition: all 0.4s;
+}
+
+#content #categories nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    width: 10%;
+    border-top: 2px solid #565656; /* #8E8E8E */
+    border-bottom: 2px solid #565656;
+    padding: 0.3% 0;
+    border-radius: 2px;
+}
+
+#main-content {
+    background: #232323;
+    margin: 2.5% 0;
+    outline: 1px solid red;
+    display: flex;
+}
+
+#main-content #new-films {
+    width: 75%;
+}
+
+#main-content #new-films .info {
+    
+}
+
+#main-content #sidebar {
+    width: 25%;
 }
 
 #footer {
